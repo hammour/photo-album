@@ -10,6 +10,7 @@ body {
 .top-nav {
   background-color: #550000;
   color: #ffaaaa;
+  font-weight: bold;
   margin: 0;
   font-size: 4em;
   text-align: center;
