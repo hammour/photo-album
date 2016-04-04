@@ -436,6 +436,59 @@ $('.album-six').click(function(e){
 });
 
 
+$('.image-display-back').click(function(e){
+	
+
+	switch($(e.target).text()){
+		case 'Back to Album 1':
+			hideAll();
+			$('.side-nav').addClass('active');
+			$('.album-one').addClass('active');
+			$('.side-nav-button').removeClass('clicked');
+			$('.btn1').addClass('clicked');
+			break;
+		case 'Back to Album 2':
+			hideAll();
+			$('.side-nav').addClass('active');
+			$('.album-two').addClass('active');
+			$('.side-nav-button').removeClass('clicked');
+			$('.btn2').addClass('clicked');
+			break;
+		case 'Back to Album 3':
+			hideAll();
+			$('.side-nav').addClass('active');
+			$('.album-three').addClass('active');
+			$('.side-nav-button').removeClass('clicked');
+			$('.btn3').addClass('clicked');
+			break;
+		case 'Back to Album 4':
+			hideAll();
+			$('.side-nav').addClass('active');
+			$('.album-four').addClass('active');
+			$('.side-nav-button').removeClass('clicked');
+			$('.btn4').addClass('clicked');
+			break;
+		case 'Back to Album 5':
+			hideAll();
+			$('.side-nav').addClass('active');
+			$('.album-five').addClass('active');
+			$('.side-nav-button').removeClass('clicked');
+			$('.btn5').addClass('clicked');
+			break;
+		case 'Back to Album 6':
+			hideAll();
+			$('.side-nav').addClass('active');
+			$('.album-six').addClass('active');
+			$('.side-nav-button').removeClass('clicked');
+			$('.btn6').addClass('clicked');
+			break;			
+	}
+
+});
+
+
+
+
 
 
 
