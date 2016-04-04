@@ -1,13 +1,5 @@
 
 
-
-
-// $('.first-one').click(function(e){
-	
-// 	$('a').removeClass('active');
-// 	$(e.target).addClass('active');
-// });
-
 function hideAll(){
 	$('.top-nav').removeClass('active');
 	$('.top-nav').addClass('non-active');

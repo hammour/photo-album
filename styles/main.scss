@@ -1,5 +1,5 @@
 body{
-	background-color: #ffaaaa;
+	background-color:  #ffaaaa;
 }
 .non-active{
 	display: none;
@@ -66,6 +66,7 @@ body{
 	margin: 2em 2em;
 	height: 20em;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	background-color: #d46a6a;
 	.item-display-image{
 		width:100%;
 		max-height: 75%;
@@ -108,7 +109,7 @@ body{
 	}
 	.image-display-image-box{
 		width: 100%;
-		max-height: 40em;
+		// max-height: 40em;
 		margin: 0px auto;
 
 		
