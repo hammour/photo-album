@@ -10,7 +10,6 @@ body {
 .top-nav {
   background-color: #550000;
   color: #ffaaaa;
-  font-weight: bold;
   margin: 0;
   font-size: 4em;
   text-align: center;
@@ -37,6 +36,9 @@ body {
 
 .side-nav-button:hover {
   box-shadow: 2px 2px 2px 1px black; }
+
+.clicked {
+  background-color: #d46a6a; }
 
 .display-container {
   padding: 5em;
